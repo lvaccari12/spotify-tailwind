@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Search, Library } from 'lucide-react';
+import { Home as HomeIcon, Search, Library, Download } from 'lucide-react';
 
 export function Sidebar() {
     return (
@@ -31,6 +31,11 @@ export function Sidebar() {
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Romance</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Hot Hits Brasil</a>
           </nav>
+
+          <div className='mt-[448px] flex items-center gap-3'>
+            <Download />
+            <h2 className='text-sm font-semibold text-zinc-200'>Install App</h2>
+          </div>
         </aside>
     )
 }
